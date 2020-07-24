@@ -7,7 +7,7 @@ The South African COVID-19 Modelling Consortium is a group of researchers from a
 The National COVID-19 Epi Model (NCEM) is a stochastic compartmental transmission model to estimate the total and reported incidence of COVID-19 in the nine provinces of South Africa. The outputs of the model may be used to inform resource requirements and predict where gaps could arise based on the available resources within the South African health system. The model follows a generalised Susceptible-Exposed-Infectious-Recovered (SEIR) structure accounting for disease severity (asymptomatic, mild, severe and critical cases) and the treatment pathway (outpatients, non-ICU and ICU beds). Core contributors to the NCEM include researchers from the following institutions:
 
 - Modelling and Simulation Hub, Africa ([MASHA](http://www.masha.uct.ac.za/)), University of Cape Town
-- [Health Economics and Epidemiology Research Office ([HE²RO](www.heroza.org)), University of Witwatersrand
+- Health Economics and Epidemiology Research Office ([HE²RO](www.heroza.org)), University of Witwatersrand
 - DSI-NRF Centre of Excellence in Epidemiological Modelling and Analysis ([SACEMA](www.sacema.org)), Stellenbosch University
 - National Institute for Communicable Diseases ([NICD](www.nicd.ac.za))
 
