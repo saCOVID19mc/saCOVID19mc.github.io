@@ -1,1 +1,2 @@
-theme: jekyll-theme-minimal
+remote_theme: jrcpulliam/minimal
+logo: ./assets/img/logo.png
