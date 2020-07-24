@@ -13,7 +13,7 @@ The National COVID-19 Epi Model (NCEM) is a stochastic compartmental transmissio
 
 # NCEM v1.0 (Provincial Model)
 
-## reports
+## Reports
 
 On 19 May 2020, the SACMC released two reports:
 
