@@ -1,4 +1,4 @@
 # saCOVID19mc.github.io
 Website for the SA COVID-19 Modelling Consortium
 
-> MD5 check: `d12ab485fc7a7895214f45ff9d528c02`
+> MD5 check: `51bb53df599213b4fa2552ae0416987b`
