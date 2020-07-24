@@ -20,6 +20,8 @@ On 19 May 2020, the SACMC released two reports:
 - [Estimating cases for COVID-19 in South Africa: Long-term national projections](https://www.nicd.ac.za/wp-content/uploads/2020/05/SACovidModellingReport_NationalLongTermProjections_Final.pdf)
 - [Estimating cases for COVID-19 in South Africa: Long-term provincial projections](https://www.nicd.ac.za/wp-content/uploads/2020/05/SACovidModellingReport_ProvincialLongTermProjections_Final.pdf)
 
+## Code
+
 **The code and data for the analyses presented in these reports are available for download [here](./provincalModel-NCEM-1.0.zip).**
 
 > MD5 check: `51bb53df599213b4fa2552ae0416987b`
