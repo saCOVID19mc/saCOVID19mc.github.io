@@ -3,7 +3,7 @@
 
 # About the SACMC
 
-The South African COVID-19 Modelling Consortium is a group of researchers from academic, non-profit, and government institutions across South Africa. The group is coordinated by the National Institute for Communicable Diseases, on behalf of the National Department of Health. The mandate of the group is to provide, assess, and validate model projections to be used for planning purposes by the Government of South Africa.
+The South African COVID-19 Modelling Consortium (SACMC) is a group of researchers from academic, non-profit, and government institutions across South Africa. The group is coordinated by the National Institute for Communicable Diseases, on behalf of the National Department of Health. The mandate of the group is to provide, assess, and validate model projections to be used for planning purposes by the Government of South Africa.
 
 # About the National COVID Epi Model
 
