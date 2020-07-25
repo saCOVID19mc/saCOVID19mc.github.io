@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+/* ----------
 h1, .h1, h2, .h2, h3, .h3 {
     margin-top: 84px;
 }
@@ -20,13 +21,13 @@ pre {
     border-radius: 0px;
  }
 
+---------- */
 
 
 
 
 
-
-/* ---------- Links ----------------- */
+/* ---------- Links -----------------
 a {
   color: #4287f5;
 }
@@ -34,10 +35,11 @@ a:hover {
   color: #4287f5;
 }
 
+---------- */
 
 
 
-/* ---------- TOC ----------------- */
+/* ---------- TOC -----------------
 #TOC {
   top: 40%;
   position: fixed;
@@ -63,13 +65,15 @@ a:hover {
 .tocify-extend-page {
   display: none;
 }
+---------- */
 
-/* ------ This is just to fix the bug on Safari where table of content is on top of content */
+/* ------ This is just to fix the bug on Safari where table of content is on top of content
 .toc-content {
   margin-left: 210px
 }
+---------- */
 
-/* ------ Don't display on small media */
+/* ------ Don't display on small media
 @media (max-width: 1400px) {
   #TOC {
     width: auto;
@@ -79,9 +83,10 @@ a:hover {
     margin-left: auto
   }
 }
+---------- */
 
 
-/* ---------- Button ----------------- */
+/* ---------- Button -----------------
 .btn {
     border-width: 0 0px 0px 0px;
     font-weight: normal;
@@ -96,3 +101,4 @@ a:hover {
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: #4287f5;
 }
+---------- */
