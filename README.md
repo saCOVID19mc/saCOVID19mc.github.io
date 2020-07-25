@@ -25,7 +25,12 @@ On 19 May 2020, the SACMC released two reports:
 
 ## Code
 
-**The code and data for the analyses presented in these reports are available for download [here](./provincalModel-NCEM-1.0.zip).**
+The code and data for the analyses presented in these reports are available for download here:
+
+        <ul class="downloads">
+          <li><a href="https://sacovid19mc.github.io/provincalModel-NCEM-1.0.zip">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://sacovid19mc.github.io/provincalModel-NCEM-1.0.tar.gz">Download <strong>TAR Ball</strong></a></li>
+        </ul>
 
 > MD5 check: `51bb53df599213b4fa2552ae0416987b`
 
@@ -38,7 +43,7 @@ On 19 May 2020, the SACMC released two reports:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-> Some rights reserved (2020)
+_Some rights reserved (2020)_
 
 This work is shared under a [CC-BY International 4.0](https://creativecommons.org/licenses/by/4.0/) license. You may share and redistribute this material under the following conditions: you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The full text of the license is available at <https://creativecommons.org/licenses/by/4.0/legalcode>.
 
