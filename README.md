@@ -32,9 +32,7 @@ The code and data for the analyses presented in these reports are available for 
   <li><a href="https://sacovid19mc.github.io/provincalModel-NCEM-1.0.tar.gz">Download <strong>TAR Ball</strong></a></li>
 </ul>
 
-> MD5 check (.zip): `51bb53df599213b4fa2552ae0416987b`
-
-> MD5 check (.tar.gz): `fa55ba83e6726883a05d10de4b37ae12`
+> MD5 check (.zip): `51bb53df599213b4fa2552ae0416987b` <br> MD5 check (.tar.gz): `fa55ba83e6726883a05d10de4b37ae12`
 
 ## Supplementary Files
 
