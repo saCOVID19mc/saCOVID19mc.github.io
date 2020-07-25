@@ -86,7 +86,7 @@ a:hover {
 ---------- */
 
 
-/* ---------- Button -----------------
+/* ---------- Button ---------- */
 .btn {
     border-width: 0 0px 0px 0px;
     font-weight: normal;
@@ -101,4 +101,3 @@ a:hover {
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: #4287f5;
 }
----------- */
