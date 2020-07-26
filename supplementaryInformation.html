@@ -9,7 +9,6 @@
 <meta name="generator" content="pandoc" />
 
 <!-- Github Logo -->
-<!--a href="https://github.com/saCOVID19mc/" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#69b3a2; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style-->
 
 
 
@@ -2583,6 +2582,7 @@ h6 {
 
 <style type="text/css">h1, .h1, h2, .h2, h3, .h3 {
 margin-top: 84px;
+font-family: Avenir;
 }
 h1 {
 padding-top: 100px;
@@ -2603,7 +2603,7 @@ color: #4287f5;
 }
 
 #TOC {
-top: 40%;
+top: 30%;
 position: fixed;
 width: 210px;
 }
@@ -2629,17 +2629,7 @@ display: none;
 }
 
 .toc-content {
-margin-left: 210px
-}
-
-@media (max-width: 1400px) {
-#TOC {
-width: auto;
-display: none;
-}
-.toc-content {
-margin-left: auto
-}
+margin-left: 230px
 }
 
 .btn {
@@ -2656,7 +2646,16 @@ border-color: #ffffff;
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 background-color: #4287f5;
 }
-</style>
+#TOC {
+top: 1%;
+opacity: 0.5;
+}
+#TOC:hover {
+opacity: 1;
+}
+body{
+font-family: Avenir;
+}</style>
 
 </head>
 
@@ -2792,7 +2791,7 @@ div.tocify {
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
     <img style="margin-bottom: 20px" src="data:image/png;base64,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" alt="logo">
-  </div>
+</div>
 </div>
 
 <div class="toc-content col-xs-12 col-sm-8 col-md-9">
@@ -2805,7 +2804,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">South African COVID-19 Modelling Consortium</h1>
-<h4 class="author" style="text-align: center;"><em>National COVID Epi Model</em></h4>
+<h4 class="author" style="text-align: center;"><em>National COVID Epi Model </em></h4>
 
 </div>
 
@@ -2825,7 +2824,7 @@ body{
 <div id="ncem-v1.0-provincial-model-supplementary-information" class="section level1">
 <h1>NCEM v1.0 (Provincial Model): Supplementary information</h1>
 <hr />
-<p>This document provides a technical overview of the National COVID-19 Epi Model (NCEM) provincial model. The model described in this document is the provincial-level NCEM model, created by the South African COVID-19 Modelling Consortium. There is also a separate document, the <a href="https://sacovid19mc.github.io/ncemProvincialCodeGuide.pdf">NCEM Provincial Model Code Guide</a>, that gives an overview of the structure of the model code. If there are any queries regarding the model or the code, please contact us on: <a href="mailto:info@sacovid19mc.co.za" class="email">info@sacovid19mc.co.za</a>.</p>
+<p>This document provides a technical overview of the National COVID-19 Epi Model (NCEM) provincial model. The model described in this document is the provincial-level NCEM model, created by the <a href="https://saCOVID19mc.github.io">South African COVID-19 Modelling Consortium</a>. There is also a separate document, the <a href="https://sacovid19mc.github.io/ncemProvincialCodeGuide.pdf">NCEM Provincial Model Code Guide</a>, that gives an overview of the structure of the model code. If there are any queries regarding the model or the code, please contact us on: <a href="mailto:info@sacovid19mc.co.za" class="email">info@sacovid19mc.co.za</a>.</p>
 <div id="model-equations" class="section level2">
 <h2>Model equations</h2>
 <hr />
@@ -3249,7 +3248,7 @@ $$</span><br /> In this context, a ‘naive’ population is the population at t
 </center>
 <br><br>
 <center>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IB2cksfwAAAW5QTFRF////////////////7+/v39/f1tXV09bS0tXS0tXR0dTR0dTQ0NTQ0NPPz9PPztLOztHNzdHNzdHMz8/PzdDMzNDMzNDLzM/Ly8/Ly8/Ky87Kys3Jyc3Jyc3IyMzIyMzHx8vHxsrGxsrFxcnFxcnExMnExMjDw8jDxMfDw8fCwsfCwcXAwMXAwMW/wMS/v8S+v8O+vsO+vsK9vcK9vcK8v7+/vMG8vMG7vMC8u8C7u8C6ur+6ur+5ub65ub64uL23t7y2tru1tbq0tLqztLmzs7iysrixsrexsbewsbawsLavsLWvr7Wur7SusLOvrrStrrOtr7KvrbOsrLKrr6+vq7Gqn6OenqCdn5+flpmWk5iTkZSRkZORj4+PiYyJhIaEhIWEgoWCgICAfX98fH98eXx5cHJvcHBwYGBgXV5dUFFQUFBQQ0RDQEBAPj8+NTY1MjMxMDAwKSkpKCkoICAgGxsbEBAQDg4ODQ4NAAAAlzoSDQAAAAN0Uk5TAAoO5yEBUwAAAvhJREFUeNq1lutX2kAQxWmXFDVGYy1EIjQ2VZDiu1CsRQQURYvV+qSKj6II8rANYOT+9z0JqIASo9Y5ydkP2f2d2Ts7d2N4jRcJgwEIBwO+SbdTFGw8ZzZz1n5BdLgnfLPBcCT6fW1jY3P78QEYEA76PWMu0W5lGbrNZGrrYNg+u+ga9fgVcmxtY/NJZAOCfs+IY4Bn6eN8RdlEJX9Ed1uFIfdnfzC8uBJbv5tyqqhMLKa0wQHPiEOwMInLW4Eu9xmzfdDtmQ0uLK3cSXmvBBTS6QJQ2tMC+8YcgpnOApAzSa83mZEBZIff2odGfYFQJNqc8s4VchQhhFA5XO1pgCddAxaFKyeNpBpxGSgNmwXXxMxcWE25fkkJGUIIoExESQPsFnkmC0gUuQmjBGQZq+j2BEKR5dUGLVLIvbkGkxxSrcHO92wCkIyENJL3u+2O8Zng/FJsvR5cRF0GFIqtwaKVvoTcSxrCKOOS7hPdXwLhxUYtUFC+Z6AKQgpoDRZ6joEkaYo4cMQKril/KLLcCE4TVYmqFmkNsK0rD9lIiDdXKCSrwwEhREae6Ve0WIiuPg3M0xVlW171BBe21CGjbLbSYR0c/To3H409TQquHTggREKZ8pbjEiRqqxxXtWjjRLdvLrzUAK4Vr5qwZvEsJsCrzExWF9Tk9gIm84e74BRyRN9xeyS4vkHSmg1yK4Wxt5yUIClDayn0t3SteLWq3RQvjQrN31O87e2dEiBl0tJDJmTrykImN8dtq6AOpIw8Y3OMf2s+bvptU+hJqFrc1yCfpmZDkWYX0mv0H9WWpvS2tH6w8z27e58JJVi7c2ImuNBkQvrBOOWZc0CqsyFKtU3+97OuaQBnXGe90RuTMvCHtpziuWCcmDvPm64m+t2vlmuq/YHqqwnGCcfs1l+mCcbSmgtSe8iDGQNnPEsnrq//fZrltXS4tk3oAOPvT2tPF91uMrXTDNv340JrjQ4hbsHAxeE0z1ksHD99eKFdl0dl/P//Cl+9EPcfS+yBAoqk3eUAAAAASUVORK5CYII=" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IB2cksfwAAAW5QTFRF////////////////7+/v39/f1tXV09bS0tXS0tXR0dTR0dTQ0NTQ0NPPz9PPztLOztHNzdHNzdHMz8/PzdDMzNDMzNDLzM/Ly8/Ly8/Ky87Kys3Jyc3Jyc3IyMzIyMzHx8vHxsrGxsrFxcnFxcnExMnExMjDw8jDxMfDw8fCwsfCwcXAwMXAwMW/wMS/v8S+v8O+vsO+vsK9vcK9vcK8v7+/vMG8vMG7vMC8u8C7u8C6ur+6ur+5ub65ub64uL23t7y2tru1tbq0tLqztLmzs7iysrixsrexsbewsbawsLavsLWvr7Wur7SusLOvrrStrrOtr7KvrbOsrLKrr6+vq7Gqn6OenqCdn5+flpmWk5iTkZSRkZORj4+PiYyJhIaEhIWEgoWCgICAfX98fH98eXx5cHJvcHBwYGBgXV5dUFFQUFBQQ0RDQEBAPj8+NTY1MjMxMDAwKSkpKCkoICAgGxsbEBAQDg4ODQ4NAAAAlzoSDQAAAAN0Uk5TAAoO5yEBUwAAAvhJREFUeNq1lutX2kAQxWmXFDVGYy1EIjQ2VZDiu1CsRQQURYvV+qSKj6II8rANYOT+9z0JqIASo9Y5ydkP2f2d2Ts7d2N4jRcJgwEIBwO+SbdTFGw8ZzZz1n5BdLgnfLPBcCT6fW1jY3P78QEYEA76PWMu0W5lGbrNZGrrYNg+u+ga9fgVcmxtY/NJZAOCfs+IY4Bn6eN8RdlEJX9Ed1uFIfdnfzC8uBJbv5tyqqhMLKa0wQHPiEOwMInLW4Eu9xmzfdDtmQ0uLK3cSXmvBBTS6QJQ2tMC+8YcgpnOApAzSa83mZEBZIff2odGfYFQJNqc8s4VchQhhFA5XO1pgCddAxaFKyeNpBpxGSgNmwXXxMxcWE25fkkJGUIIoExESQPsFnkmC0gUuQmjBGQZq+j2BEKR5dUGLVLIvbkGkxxSrcHO92wCkIyENJL3u+2O8Zng/FJsvR5cRF0GFIqtwaKVvoTcSxrCKOOS7hPdXwLhxUYtUFC+Z6AKQgpoDRZ6joEkaYo4cMQKril/KLLcCE4TVYmqFmkNsK0rD9lIiDdXKCSrwwEhREae6Ve0WIiuPg3M0xVlW171BBe21CGjbLbSYR0c/To3H409TQquHTggREKZ8pbjEiRqqxxXtWjjRLdvLrzUAK4Vr5qwZvEsJsCrzExWF9Tk9gIm84e74BRyRN9xeyS4vkHSmg1yK4Wxt5yUIClDayn0t3SteLWq3RQvjQrN31O87e2dEiBl0tJDJmTrykImN8dtq6AOpIw8Y3OMf2s+bvptU+hJqFrc1yCfpmZDkWYX0mv0H9WWpvS2tH6w8z27e58JJVi7c2ImuNBkQvrBOOWZc0CqsyFKtU3+97OuaQBnXGe90RuTMvCHtpziuWCcmDvPm64m+t2vlmuq/YHqqwnGCcfs1l+mCcbSmgtSe8iDGQNnPEsnrq//fZrltXS4tk3oAOPvT2tPF91uMrXTDNv340JrjQ4hbsHAxeE0z1ksHD99eKFdl0dl/P//Cl+9EPcfS+yBAoqk3eUAAAAASUVORK5CYII=" /></a><br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </center>
 </div>
 <div id="references" class="section level2">
@@ -3269,7 +3268,7 @@ $$</span><br /> In this context, a ‘naive’ population is the population at t
  
 <br><br><br><br>
 <hr />
-<p style="text-align: center;"><a href="https://github.com/saCOVID19mc">South African COVID-19 Modelling Consortium</a></p>
+<p style="text-align: center;"><a href="https://saCOVID19mc.github.io">South African COVID-19 Modelling Consortium</a></p>
 <p style="text-align: center;"><span style="color: #808080;"><em><a href="mailto:info@sacovid19mc.co.za" class="email">info@sacovid19mc.co.za</a></em></span></p>
 
 <!-- Add icon library -->
@@ -3278,8 +3277,7 @@ $$</span><br /> In this context, a ‘naive’ population is the population at t
 
 <!-- Add font awesome icons -->
 <p style="text-align: center;">
-      	<!--a href="https://github.com/saCOVID19mc" class="fa fa-github"></a-->
-      <a href="https://saCOVID19mc.github.io" class="fa fa-home"></a>
+          <a href="https://saCOVID19mc.github.io" class="fa fa-home"></a>
   </p>
 
  
@@ -3307,7 +3305,6 @@ $(document).ready(function () {
 
 
 </script>
-
 
 <script>/* Disable minification (remove `.min` from URL path) for more info */
 
