@@ -80,6 +80,4 @@ This work is shared under a [CC-BY International 4.0](https://creativecommons.or
     - National Institute for Communicable Diseases
 - **Source**: <http://sacovid19mc.github.io/>
 
-# NCEM v2.0 (District Model)
 
-The NCEM District Model will be made available on or before 22 September 2020.
