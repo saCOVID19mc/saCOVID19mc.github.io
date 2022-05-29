@@ -47,7 +47,44 @@ _Some rights reserved (2020)_
 
 This work is shared under a [CC-BY International 4.0](https://creativecommons.org/licenses/by/4.0/) license. You may share and redistribute this material under the following conditions: you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The full text of the license is available at <https://creativecommons.org/licenses/by/4.0/legalcode>.
 
-- **Title**: National COVID-19 Epi Model Provincial Model - v1.0
+- **Title**: National COVID-19 Epi Model (NCEM v1.0) - Provincial Model - v1.0
+- **Attribution**: On behalf of the South African COVID-19 Modelling Consortium, by
+    - Modelling and Simulation Hub, Africa (MASHA), University of Cape Town
+    - Health Economics and Epidemiology Research Office (HE²RO), University of Witwatersrand
+    - DSI-NRF Centre of Excellence in Epidemiological Modelling and Analysis (SACEMA), Stellenbosch University
+    - National Institute for Communicable Diseases
+- **Source**: <http://sacovid19mc.github.io/>
+
+
+# NCEM v2.0 (District Model)
+
+## Reports
+
+On 5 September 2020, the SACMC released the following report:
+
+- [Estimating cases for COVID-19 in South Africa: Assessment of alternative scenarios](https://www.nicd.ac.za/wp-content/uploads/2020/11/SACovidModellingReport_LongTermProjections_050920_final.pdf)
+
+
+## Code
+
+The code and data for the analyses presented in these reports are available for download here:
+
+<ul class="downloads">
+  <li><a href="https://sacovid19mc.github.io/districtModel-NCEM-2.0.zip">Download <strong>ZIP File</strong></a></li>
+  <li><a href="https://sacovid19mc.github.io/districtModel-NCEM-2.0.tar">Download <strong>TAR Ball</strong></a></li>
+</ul>
+
+> MD5 check (.zip): `5ae62a55eef3aa68c4c521c91d7bfb63` <br> MD5 check (.tar): `c5f9953f79ab473517a0a74259b36723`
+
+## Supplementary Files
+
+- [NCEM Provincial Code Guide](./ncemProvincialCodeGuide.pdf)
+- [Overview of model equations and parameters](./districtModelSupplementaryFile.pdf)
+
+
+## License
+
+- **Title**: National COVID-19 Epi Model (NCEM v2.0) - District Model - v1.0
 - **Attribution**: On behalf of the South African COVID-19 Modelling Consortium, by
     - Modelling and Simulation Hub, Africa (MASHA), University of Cape Town
     - Health Economics and Epidemiology Research Office (HE²RO), University of Witwatersrand
