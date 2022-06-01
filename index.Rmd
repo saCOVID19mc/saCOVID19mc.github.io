@@ -1,7 +1,7 @@
 ---
 title: "South African COVID-19 Modelling Consortium"
 author: "National COVID Epi Model"
-date: "Updated on 24 July 2020"
+date: "Updated on 01 June 2022"
 mail: "info@sacovid19mc.co.za"
 home: "saCOVID19mc.github.io"
 output:
