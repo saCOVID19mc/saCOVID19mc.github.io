@@ -84,6 +84,12 @@ The code and data for the analyses presented in these reports are available for 
 
 ## License
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+_Some rights reserved (2020)_
+
+This work is shared under a [CC-BY International 4.0](https://creativecommons.org/licenses/by/4.0/) license. You may share and redistribute this material under the following conditions: you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The full text of the license is available at <https://creativecommons.org/licenses/by/4.0/legalcode>.
+
 - **Title**: National COVID-19 Epi Model (NCEM v2.0) - District Model - v1.0
 - **Attribution**: On behalf of the South African COVID-19 Modelling Consortium, by
     - Modelling and Simulation Hub, Africa (MASHA), University of Cape Town
@@ -91,3 +97,32 @@ The code and data for the analyses presented in these reports are available for 
     - DSI-NRF Centre of Excellence in Epidemiological Modelling and Analysis (SACEMA), Stellenbosch University
     - National Institute for Communicable Diseases
 - **Source**: <http://sacovid19mc.github.io/>
+
+
+# National COVID-19 Vaccine Model (NCVM)
+
+## Reports
+
+In 2021, SACMC released the following reports:
+
+- [COVID-19 modelling update: Considerations for a potential third wave: 29 April 2021](https://www.nicd.ac.za/wp-content/uploads/2021/07/SACMC-Third-wave-report-290421.pdf)
+- [COVID-19 modelling update: Considerations for the third wave, including the impact of the Delta variant of concern: 14 July 2021](https://www.nicd.ac.za/wp-content/uploads/2021/07/SACMC-Third-wave-report-inlcuding-Delta-variant.pdf)
+- [COVID-19 modelling update: Considerations for a potential fourth wave: 17 November 2021](https://www.nicd.ac.za/wp-content/uploads/2021/11/SACMC-Fourth-wave-report-17112021-final.pdf)
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+_Some rights reserved (2020)_
+
+This work is shared under a [CC-BY International 4.0](https://creativecommons.org/licenses/by/4.0/) license. You may share and redistribute this material under the following conditions: you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The full text of the license is available at <https://creativecommons.org/licenses/by/4.0/legalcode>.
+
+- **Title**: National COVID-19 Vaccine Model (NCVM)
+- **Attribution**: On behalf of the South African COVID-19 Modelling Consortium, by
+    - Modelling and Simulation Hub, Africa (MASHA), University of Cape Town
+    - Health Economics and Epidemiology Research Office (HE²RO), University of Witwatersrand
+    - DSI-NRF Centre of Excellence in Epidemiological Modelling and Analysis (SACEMA), Stellenbosch University
+    - National Institute for Communicable Diseases
+- **Source**: <http://sacovid19mc.github.io/>
+
+
