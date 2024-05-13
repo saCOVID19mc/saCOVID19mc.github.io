@@ -109,6 +109,12 @@ In 2021, SACMC released the following reports:
 - [COVID-19 modelling update: Considerations for the third wave, including the impact of the Delta variant of concern: 14 July 2021](https://www.nicd.ac.za/wp-content/uploads/2021/07/SACMC-Third-wave-report-inlcuding-Delta-variant.pdf)
 - [COVID-19 modelling update: Considerations for a potential fourth wave: 17 November 2021](https://www.nicd.ac.za/wp-content/uploads/2021/11/SACMC-Fourth-wave-report-17112021-final.pdf)
 
+## Supplementary Files
+
+- [NCEM Provincial Code Guide](./ncemProvincialCodeGuide.pdf)
+- [Overview of model structure and parameters](./vaccineModelSupplementaryfile.pdf)
+
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
